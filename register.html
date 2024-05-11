@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loginPlace">
+        <div class="header">
+            <h1 style="margin: 0px;">Cloud Crowd</h1>
+        </div>
+
+        <div class="login">
+            <form action="#">
+                <fieldset class="field">
+                    <legend style="text-align: center; font-size: large;">Sign Up</legend>
+                    <label for="email">Email Address: </label>
+                    <input type="email" style="display: block;" id="email" required><br>
+                    <label for="userName">Username: </label>
+                    <input type="text" style="display: block;" name="userName" id="userName" required><br>
+                    <label for="password">Password (8 character min.): </label>
+                    <input type="password" style="display: block;" name="password" id="password" minlength="8"
+                        required><br>
+                    <label for="confirm">Confirm Password: </label>
+                    <input type="password" style="display: block;" name="password" id="confirm" required><br>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
